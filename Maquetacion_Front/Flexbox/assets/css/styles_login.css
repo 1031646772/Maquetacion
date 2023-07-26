@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+:root{
+    --color_icon:#9C2859;
+    --color_background:rgba(84, 135, 182, 0.89);
+    --color_black:black;
+    --color_white:#fff;
+}
+h1{
+    font-family: 'Marcellus','sans-serif';
+    font-size: 20px;
+    color: #fff;
+}
+h2{
+   font-family: 'Roboto',serif;
+   font-size: 15px;
+   color: #fff;
+}
+a{
+  margin-left: 3%;
+  font-family: 'Marcellus',serif;
+  font-size: 16px;
+  text-decoration: none;
+  color: var(--color_black);
+}
+a:hover{
+    color: var(--color_white);
+}
+body{
+    background-image: url('../imgs/bg-login.png');
+    background-size: cover;
+    height:87vh;
+    background-repeat: no-repeat;
+}
+.container_login{
+    background-color: var(--color_background);
+    width: 490px;
+    height: 500px;
+    margin: 5% 12% 5% 30%;
+    border-radius: 5px;
+}
+.decoration{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+}
+.vector{
+    width: 490px;
+    height: auto;
+}
+.logo{
+    width: 180px;
+    height: auto;
+    position: relative;
+    bottom: 140px;
+    margin-left: 5%;
+}
+.container_icon{
+    border-radius: 100%;
+    background-color: var(--color_icon);
+    width: 80px;
+    height: 75px;
+    position: relative;
+    bottom: 100px;
+    margin-left: 42%;
+}
+.icon{
+    margin-left: 15%;
+    margin-top: 8%;
+    width: 55px;
+    height: auto;
+    border-radius: 100%;
+}
+.formula_lo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    bottom: 18%;
+}
+.campo{
+    margin-top: 2%;
+    width: 320px;
+    height: 30px;
+    border-radius: 2px;
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+.container_input2{
+ margin-top: 6%;
+}
+.boton_en{
+    margin-top: 15%;
+    width: 320px;
+    height: 34px;
+    font-family: 'Marcellus',serif;
+    font-size: 20px;
+    color: var(--color_white);
+    background-color: var(--color_black);
+    text-align: center;
+}
+.olvido{
+    margin-left: 5%;
+    margin-top: 4%;
+    display: flex;
+    flex-direction: row;
+}
+@media  (max-width:1000px){
+    body{
+        width: 70%;
+    }
+    .container_login{
+        background-color: var(--color_background);
+        width: 490px;
+        height: 500px;
+        margin-top: 30%;
+        border-radius: 5px;
+        position: relative;
+    }
+}
