@@ -1,119 +1,120 @@
 *{
- margin: 0px;
- border: 0px;
- padding: 0px;
-}
-:root{
-    --color1:#157A8A;
-    --color2:#337AB7;
-    --color3:#48D6ED;
-    --color4:#B2B3B3;
-    --color5:#9C2759;
-    --color6:#303342;
-}
-span{
-    font-family: 'Playfair Display', serif;
-    font-size: 15px;
-}
-p{
-    font-family: 'Roboto', sans-serif;
-}
-h1{
-    font-family: 'Marcellus', serif;
-    font-size: 20px;
-    font-size: 30px;
-}
-h4{
-    font-family: 'Playfair Display', serif;
-    font-size: 20px;
-}
-h5{
-    font-family: 'Roboto', sans-serif;
-    font-size: 22px;
-    color: white;
-}
-h6{
-    font-family: 'Roboto', sans-serif;
-    font-size: 13px;
-    color: white;
-}
-h2{
- margin-top: 5%;
- margin-left: 8%;
- font-family: 'roboto', serif;
- font-size: 20px;
- color: white;
-}
-.container_mother{
-    display: flex;
-    flex-direction: row;
-}
-body{
-    width: 100%;
-    height: 150 0px;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.narvar1{
-background-color: var(--color6);
-width: 300px;
-height: 700px;
-}
-.container_logo_and_user{
-background-color: var(--color2);
-height: 220px;
-}
-.vector_barra{
-    width: 210px;
-    height: 100px;
-    position: relative;
-    right:18px;
-}
-.logo{
-    position: relative;
-    bottom: 110px;
-    margin-left: 12%;
-    width: 150px;
-    height: 150px;
-}
-.icon_button2{
-    display: none;
-}
-.apartado{
-    width: 160px;
-    text-align: center;
-    margin-left: 15%;
-    position: relative;
-    bottom: 110px;
-}
-.iconos_narvar{
-    width: 50px;
-    height: 40px;
-}
-.icon_text{
-    margin-left: 4%;
-    margin-top: 8%;
-    display: flex;
-    flex-direction: row;
-    border: none;
-    background-color: var(--color6);
-    cursor: pointer;
-}
-.icon_text2{
-    width: 200px;
-    margin-top: 50%;
-    display: flex;
-    flex-direction: row;
-    border: none;
-    background-color: var(--color6);
-    cursor: pointer;
-}
-.icono_cerrar_sesion{
-    margin-top: 3%;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+   }
+   :root{
+       --color1:#157A8A;
+       --color2:#337AB7;
+       --color3:#48D6ED;
+       --color4:#B2B3B3;
+       --color5:#9C2759;
+       --color6:#303342;
+       --degradado: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
+   }
+   span{
+       font-family: 'Playfair Display', serif;
+       font-size: 15px;
+   }
+   p{
+       font-family: 'Roboto', sans-serif;
+   }
+   h1{
+       font-family: 'Marcellus', serif;
+       font-size: 20px;
+       font-size: 30px;
+   }
+   h4{
+       font-family: 'Playfair Display', serif;
+       font-size: 20px;
+   }
+   h5{
+       font-family: 'Roboto', sans-serif;
+       font-size: 22px;
+       color: white;
+   }
+   h6{
+       font-family: 'Roboto', sans-serif;
+       font-size: 13px;
+       color: white;
+   }
+   h2{
+    margin-top: 5%;
     margin-left: 8%;
-    width: 40px;
-    height: 35px;
-}
+    font-family: 'roboto', serif;
+    font-size: 20px;
+    color: white;
+   }
+   .container_mother{
+       display: flex;
+       flex-direction: row;
+   }
+   body{
+       width: 100%;
+       height: 150 0px;
+       background-repeat: no-repeat;
+       background-size: cover;
+   }
+   .narvar1{
+   background-color: var(--color6);
+   width: 300px;
+   height: 700px;
+   }
+   .container_logo_and_user{
+   background-image: var(--degradado);
+   height: 220px;
+   }
+   .vector_barra{
+       width: 100%;
+       height: 130px;
+       position: relative;
+       right:18px;
+   }
+   .logo{
+       position: relative;
+       bottom: 140px;
+       margin-left: 12%;
+       width: 180px;
+       height: 150px;
+   }
+   .icon_button2{
+       display: none;
+   }
+   .apartado{
+       width: 160px;
+       text-align: center;
+       margin-left: 15%;
+       position: relative;
+       bottom: 140px;
+   }
+   .iconos_narvar{
+       width: 50px;
+       height: 40px;
+   }
+   .icon_text{
+       margin-left: 4%;
+       margin-top: 8%;
+       display: flex;
+       flex-direction: row;
+       border: none;
+       background-color: var(--color6);
+       cursor: pointer;
+   }
+   .icon_text2{
+       width: 200px;
+       margin-top: 50%;
+       display: flex;
+       flex-direction: row;
+       border: none;
+       background-color: var(--color6);
+       cursor: pointer;
+   }
+   .icono_cerrar_sesion{
+       margin-top: 3%;
+       margin-left: 8%;
+       width: 40px;
+       height: 35px;
+   }
 
 .container_form{
     margin-top:3% ;
